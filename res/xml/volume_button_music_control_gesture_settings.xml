@@ -29,6 +29,7 @@
     <SwitchPreferenceCompat
         android:key="volume_button_music_control"
         android:title="@string/volume_button_music_control_title"
+        android:dependency="volume_rocker_wake"
         android:summary="@string/volume_button_music_control_summary"
         app:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
 
